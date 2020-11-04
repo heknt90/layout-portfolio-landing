@@ -1,0 +1,29 @@
+.button {
+    display: inline-block;
+    padding-right: 43px;
+    padding-left: 43px;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &_big {
+        padding-top: 27px;
+        padding-bottom: 26px;
+    }
+
+    &_primary {
+        background-color: $primary-color;
+        color: #fff;
+
+        transition: background 1s;
+
+        &:hover, &:focus {
+            background-color: $font-color-primary;
+            // color: ;
+        }
+    }
+}
+

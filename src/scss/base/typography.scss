@@ -1,0 +1,22 @@
+html {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #9aa0ab;
+}
+
+h1, h2, h3, h4, h5, .big-heading {
+    font-family: Montserat, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: $font-color-primary;
+    text-transform: uppercase;
+}
+
+.list {
+    padding-left: 0;
+    list-style: none;
+    
+    a {
+        text-decoration: none;
+    }
+}

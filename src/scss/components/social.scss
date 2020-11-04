@@ -1,0 +1,13 @@
+.social-icon {
+    color: $primary-color;
+
+    transition: color 1s;
+
+    & + & {
+        margin-left: 24px;
+    }
+
+    &:hover, &:focus {
+        color: $font-color-primary;
+    }
+}

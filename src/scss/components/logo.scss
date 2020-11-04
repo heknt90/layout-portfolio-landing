@@ -1,0 +1,44 @@
+.logo {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    display: inline-block;
+    
+    background-color: $primary-color;
+    
+    // height: 5rem;
+    border-radius: 0 0 5px 5px;
+    
+    line-height: 0;
+    text-align: center;
+    font-family: Domine;
+    font-size: 1.25rem;
+    color: #fff;
+
+    transition: color .7s, background 1s;
+    
+    a {
+        display: block;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+
+        font-size: inherit;
+        letter-spacing: 1.2px;
+    }
+
+    &-repaint {
+        color: $font-color-primary;
+    }
+
+    &:hover, &:focus {
+        background-color: #fff;
+        color: $font-color-primary;
+
+        &-repaint {
+            color: $primary-color;
+        }
+    }
+}
+
