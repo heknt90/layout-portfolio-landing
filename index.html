@@ -6,7 +6,6 @@
     <title>Главная</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
 </head>
 <body>
     <nav class="main-navigation container">
@@ -29,7 +28,7 @@
     </nav>
    
     <main>
-        <div class="promo">
+        <div class="promo" id='promo'>
             <div class="container">
                 <b class="promo__title big-heading">
                     Intelligence
@@ -44,7 +43,7 @@
         </div>
 
         <div class="container">
-            <section class="advantages">
+            <section class="advantages animate-appearence" data-animate="appearence">
                 <h2 class="sr-only">Advantages</h2>
                 <ul class="advantages__list list">
                     <li class="advantages__item">
@@ -86,7 +85,7 @@
             </section>
 
             <section class="portfolio">
-                <img class="portfolio__image " src="./img/macbook.jpg" alt="">
+                <img class="portfolio__image " src="./img/macbook.jpg" alt="" data-animate="appearence-left">
 
                 <div class="portfolio__content">
                     <h2 class="portfolio__title">Portfolio<span class="text-repaint_red">.</span></h2>
@@ -105,7 +104,7 @@
 
                 <p class="our-team__subtitle">They are big but still friendly.</p>
 
-                <ul class="our-team__list list">
+                <ul class="our-team__list list" data-animate="appearence-list">
                     <li class="our-team__item">
                         <img class="our-team__photo" src="./img/developer1.jpg" alt="Ourself developer Joey">
 
@@ -147,5 +146,6 @@
 
 
     <script src="https://kit.fontawesome.com/067826a97e.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" type="module"></script>
 </body>
 </html>
