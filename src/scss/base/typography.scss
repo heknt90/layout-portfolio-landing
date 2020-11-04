@@ -29,5 +29,16 @@ h1, h2, h3, h4, h5, .big-heading {
 }
 
 .text-repaint {
-    color: $font-color-primary;
+    // &_blue, 
+    // &_red {
+    //     font-weight: bold;
+    // }
+
+    &_blue {
+        color: $font-color-primary;
+    }
+
+    &_red {
+        color: $primary-color;
+    }
 }
