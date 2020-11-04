@@ -4,6 +4,8 @@
 
 Макет шаблона в формате .psd взят [отсюда](https://psd.in.ua/svetlyj-maket-sajta-dlya-portfolio/)
 
+[Демонстрация верстки](https://heknt90.github.io/layout-portfolio-landing/)
+
 ## При верстке данного макета, использовалась система сборки gulp
 
 ### Для установки всех зависимостей
