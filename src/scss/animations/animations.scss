@@ -1,0 +1,44 @@
+
+.animate-appearence {
+    animation: appearance 1.5s ease-in-out 1 backwards paused;
+}
+
+.animate-appearence-left {
+    animation: appearance-left 1.5s ease-in-out 1 backwards paused;
+}
+
+.animate-appearence-right {
+    animation: appearance-right 1.5s ease-in-out 1 backwards paused;
+}
+
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes appearance-left {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes appearance-right {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}

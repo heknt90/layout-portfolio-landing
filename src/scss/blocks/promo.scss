@@ -6,8 +6,9 @@
     background-image: url('../img/promo.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-position: center top;
+    background-attachment: fixed;
 
     &__title + &__subtitle {
         margin-top: 17px;
