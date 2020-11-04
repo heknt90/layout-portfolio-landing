@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 
     a {
         color: inherit;
@@ -34,7 +35,7 @@
     }
 
     &__social {
-        margin-left: 32px;
+        margin-left: 12px;
         font-size: 1.1rem;
     }
 
