@@ -2,6 +2,36 @@ html, body {
   margin: 0;
   padding: 0; }
 
+@font-face {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: "bold";
+  font-style: normal;
+  src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Domine";
+  font-weight: "bold";
+  font-style: normal;
+  src: url("../fonts/Domine-Bold.woff") format("woff"), url("../fonts/Domine-Bold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: "bold";
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -23,7 +53,7 @@ p {
 
 h1, h2, h3, h4, h5, .big-heading {
   margin-top: 0;
-  font-family: Montserat, 'Times New Roman', Times, serif;
+  font-family: Montserrat, Arial, sans-serif;
   font-weight: bold;
   color: #314a5b;
   text-transform: uppercase; }
@@ -63,6 +93,8 @@ section {
   .button_primary {
     background-color: #fa5c65;
     color: #fff;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
     -webkit-transition: background 1s;
     transition: background 1s; }
     .button_primary:hover, .button_primary:focus {
@@ -70,6 +102,7 @@ section {
   .button_primary-text {
     padding: 0;
     color: #fa5c65;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
     -webkit-transition: color .7s;
     transition: color .7s; }
     .button_primary-text:hover, .button_primary-text:focus {
@@ -94,7 +127,8 @@ section {
   border-radius: 0 0 5px 5px;
   line-height: 0;
   text-align: center;
-  font-family: Domine;
+  font-family: Domine, 'Times New Roman', serif;
+  font-weight: bold;
   font-size: 1.25rem;
   color: #fff;
   -webkit-transition: color .7s, background 1s;
@@ -139,7 +173,8 @@ section {
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  font-family: Montserrat, Arial, sans-serif; }
   .main-navigation a {
     color: inherit;
     text-decoration: none; }
