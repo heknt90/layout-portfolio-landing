@@ -2,11 +2,11 @@
     // position: absolute;
     // top: 0; 
     // left: 0; 
+    // margin-top: -2rem;
     display: inline-block;
     
     background-color: $primary-color;
     
-    // height: 5rem;
     border-radius: 0 0 5px 5px;
     
     line-height: 0;
@@ -17,11 +17,19 @@
     font-size: 1.25rem;
     color: #fff;
 
-    transition: color .7s, background 1s;
+    // animation: logo-animate 1s ease-in-out 1 alternate both paused;
+    transform: translateY(-2rem);
+
+    &:hover, &:focus {
+        transform: translateY(0);
+    }
+
+
+    transition: transform 1s;
     
     a {
         display: block;
-        padding-top: 3rem;
+        padding-top: 5rem;
         padding-bottom: 1rem;
         padding-right: 1rem;
         padding-left: 1rem;
@@ -30,13 +38,24 @@
         letter-spacing: 1.2px;
     }
 
-    &:hover, &:focus {
-        background-color: #fff;
-        color: $font-color-primary;
+    // &:hover, &:focus {
+    //     background-color: #fff;
+    //     color: $font-color-primary;
 
-        &-repaint {
-            color: $primary-color;
-        }
-    }
+    //     &-repaint {
+    //         color: $primary-color;
+    //     }
+    // }
 }
 
+
+
+// @keyframes logo-animate {
+//     from {
+//         transform: translateY(-2rem);
+//     }
+//     to {
+//         transform: translateY(0);
+//         animation-play-state: paused;
+//     }
+// }
