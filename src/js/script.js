@@ -61,7 +61,6 @@ document.querySelectorAll('[data-animate]').forEach(item => {
 const promoCfg = {}
 
 promoCfg.target = document.querySelector('#promo')
-promoCfg.speed = 200
 parallax(promoCfg)
 
 
