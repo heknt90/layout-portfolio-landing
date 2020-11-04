@@ -1,0 +1,33 @@
+// Montserrat
+
+@include font-face(
+    'Montserrat',
+    '../fonts/Montserrat-Regular'
+);
+
+@include font-face(
+    'Montserrat',
+    '../fonts/Montserrat-Bold',
+    'bold'
+);
+
+// Domine
+
+@include font-face(
+    'Domine',
+    '../fonts/Domine-Bold',
+    'bold'
+);
+
+// Open Sans
+
+@include font-face(
+    'Open Sans',
+    '../fonts/OpenSans-Regular'
+);
+
+@include font-face(
+    'Open Sans',
+    '../fonts/OpenSans-Bold',
+    'bold'
+);

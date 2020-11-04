@@ -16,7 +16,10 @@
 
     &_primary {
         background-color: $primary-color;
+        
         color: #fff;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        font-weight: bold;
 
         transition: background 1s;
 
@@ -30,6 +33,7 @@
         padding: 0;
         // margin: 10px 0;
         color: $primary-color;
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
 
         transition: color .7s;
 
