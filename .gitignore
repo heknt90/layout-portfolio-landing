@@ -1,3 +1,7 @@
 node_modules
 package-lock.json
-build/
+src
+gulpfile.js
+package.json
+README.md
+layout
