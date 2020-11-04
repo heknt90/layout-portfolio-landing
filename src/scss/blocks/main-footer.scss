@@ -1,0 +1,21 @@
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 35px;
+    padding-bottom: 43px;
+
+    border-top: #e6eaed 1px solid;
+
+    color: $footer-color;
+    
+
+    &__social-list {
+        display: flex;
+    }
+
+    &__copywrite {
+        font-size: .86rem;
+    }
+}

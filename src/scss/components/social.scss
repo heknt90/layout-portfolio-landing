@@ -1,5 +1,9 @@
 .social-icon {
-    color: $primary-color;
+
+    a {
+        color: inherit;
+    }
+    
 
     transition: color 1s;
 
