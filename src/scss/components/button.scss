@@ -25,5 +25,48 @@
             // color: ;
         }
     }
+
+    &_primary-text {
+        padding: 0;
+        // margin: 10px 0;
+        color: $primary-color;
+
+        transition: color .7s;
+
+        &:hover, &:focus {
+            color: $font-color-primary;
+
+            &:after {
+                background-color: $font-color-primary;
+            }
+        }
+    }
+
+    &_arrow {
+
+        &:after {
+            content: '';
+            display: inline-block;
+            width: 12px;
+            height: 9px;
+            margin-left: 7px;
+            clip-path: polygon(
+                8px 2px,
+                8px 1px,
+                12px 4px,
+                12px 5px,
+                8px 8px,
+                8px 7px,
+                10px 5px,
+                1px 5px,
+                1px 4px,
+                10px 4px,
+                8px 2px
+            );
+            background-color: $primary-color;
+
+            transition: background .7s;
+        }
+    }
 }
 

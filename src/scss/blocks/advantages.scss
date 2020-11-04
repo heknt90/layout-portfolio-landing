@@ -1,0 +1,32 @@
+.advantages {
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        margin-bottom: 40px;
+        text-align: left;
+        flex-shrink: 1;
+        max-width: 300px;
+
+        & + &:not(:nth-of-type(4n)) {
+            margin-left: 20px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 1.46rem;
+
+        font-size: 1.73rem;
+        line-height: 1.73rem;
+    }
+
+    &__text {
+        margin-bottom: 1.93rem;
+
+        line-height: 1.47rem;
+    }
+}
