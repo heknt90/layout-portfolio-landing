@@ -1,0 +1,51 @@
+.our-team {
+
+    &__title {
+        margin-bottom: 1.07rem;
+
+        font-size: 2.13rem;
+        line-height: 2.13rem;
+    }
+
+    &__subtitle {
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        position: relative;
+        padding-left: 140px;
+
+        max-width: 300px;
+
+        & + &:not(:nth-of-type(4n)) {
+            margin-left: 20px;
+        }
+    }
+
+    &__name {
+        display: inline-block;
+        margin-top: 1.13rem;
+        margin-bottom: .73rem;
+
+        font-size: 1.47rem;
+        line-height: 1.47rem;
+    }
+
+    &__position {
+        color: $primary-color;
+        margin-bottom: .93rem;
+    }
+
+    &__photo {
+        position: absolute;
+        left: 0; top: 0;
+        margin-right: 20px;
+
+        border-radius: 50%;
+    }
+}
